@@ -2,11 +2,11 @@ import * as React from "react";
 
 const WhyUs = () => {
   return (
-    <section className="container my-lg-5" id="whyUs">
+    <section className="container" id="whyUs">
       <h2 className="py-1">Why Us</h2>
       <h4>Mengapa harus pilih Binar Car Rental?</h4>
 
-      <div className="row flex-column flex-md-row align-items-center my-5 gap-2">
+      <div className="row flex-column flex-md-row align-items-center gap-2">
         <div className="col">
           <div className="card">
             <div className="card-body">

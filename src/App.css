@@ -36,3 +36,145 @@
     transform: rotate(360deg);
   }
 }
+
+.container-faq {
+  position: relative;
+  left: 60px;
+  top: 90px;
+}
+
+.faq {
+  position: relative;
+  left: 560px;
+  top: 20px;
+}
+
+@media (max-width: 844px) {
+  .faq {
+    position: absolute;
+    width: 328px;
+    height: 376px;
+    left: 30px;
+    top: 3270px;
+  }
+}
+
+.faq-1 {
+  height: 36px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+@media (max-width: 844px) {
+  .faq-1 {
+    position: absolute;
+    height: 36px;
+    left: -17px;
+    top: 1850px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.faq-2 {
+  width: 368px;
+  height: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+@media (max-width: 844px) {
+  .faq-2 {
+    position: absolute;
+    width: 328px;
+    height: 40px;
+    left: -51px;
+    top: 1890px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.testimoni {
+  width: auto;
+  height: 100px;
+  position: relative;
+  top: 60px;
+  margin: auto;
+  padding: 10px;
+}
+
+.testimoni-1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (max-width: 844px) {
+  .testimoni-1 {
+    position: absolute;
+    height: 36px;
+    left: 4.44%;
+    right: 4.44%;
+    top: 1600px;
+  }
+}
+
+.testimoni-2 {
+  width: auto;
+  height: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (max-width: 844px) {
+  .testimoni-2 {
+    position: absolute;
+    width: 328px;
+    height: 40px;
+    left: 10px;
+    top: 1640px;
+  }
+}
+
+.testimonial {
+  position: relative;
+  width: 619px;
+  height: 270px;
+  left: 335px;
+  top: 60px;
+}
+
+@media (max-width: 844px) {
+  .testimonial {
+    position: absolute;
+    width: 328px;
+    height: 392px;
+    left: 16px;
+    top: 2397px;
+  }
+}
