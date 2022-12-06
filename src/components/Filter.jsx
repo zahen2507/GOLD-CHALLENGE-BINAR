@@ -3,7 +3,7 @@ import React from "react";
 const Filter = (props) => {
   return (
     <div
-      className="card position-relative top-100 start-50 translate-middle mt-1"
+      className="card position-relative start-50 translate-middle"
       style={{ width: "1000px" }}
     >
       <div className="card-body">

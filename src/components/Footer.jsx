@@ -1,4 +1,10 @@
 import * as React from "react";
+import imgFB from "../assets/FB.PNG";
+import imgIG from "../assets/IG.PNG"
+import imgMail from "../assets/MAIL.PNG"
+import imgTW from "../assets/TW.PNG"
+import imgTC from "../assets/TC.PNG"
+import imgLogo from "../assets/LOGO.png"
 
 const Footer = () => {
   return (
@@ -30,27 +36,27 @@ const Footer = () => {
             <p className="footer">
               Connect with us <br />
               <br />
-              <img src="img/FB.PNG" width={30} height={30} style={{ marginBottom: "20px" }} />
+              <img src={imgFB} width={30} height={30} style={{ marginBottom: "20px" }} />
               <img
-                src="img/IG.PNG"
+                src={imgIG}
                 width={30}
                 height={30}
                 style={{ marginBottom: "20px", marginLeft: "12px" }}
               />
               <img
-                src="img/TW.PNG"
+                src={imgTW}
                 width={30}
                 height={30}
                 style={{ marginBottom: "20px", marginLeft: "12px" }}
               />
               <img
-                src="img/MAIL.PNG"
+                src={imgMail}
                 width={30}
                 height={30}
                 style={{ marginBottom: "20px", marginLeft: "12px" }}
               />
               <img
-                src="img/TC.PNG"
+                src={imgTC}
                 width={30}
                 height={30}
                 style={{ marginBottom: "20px", marginLeft: "12px" }}
@@ -61,7 +67,7 @@ const Footer = () => {
             <p className="footer">
               Copyright Binar 2022 <br />
               <br />
-              <img src="img/logo.png" alt="" />
+              <img src={imgLogo} alt="" />
             </p>
           </div>
         </div>

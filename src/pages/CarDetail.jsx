@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+
 import "./pages.css";
 import Filter from "../components/Filter";
 import usersImg from "../assets/users.png";
@@ -24,13 +24,56 @@ const CarDetail = () => {
 
   return (
     <div>
-      <Navbar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <header class="header-detail pb-lg-5">
+        <div class="container-fluid p-0">
+
+          <div class="header-1">
+            <nav class="navbar fixed-top navbar-expand-lg">
+              <div class="container-lg">
+                <a class="navbar-brand" href="#">
+                  <img src="/img/logo.png"
+                    alt="logo"
+                    class="d-inline-block align-text-top"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse flex-grow-0 justify-content-around"
+                  id="navbarNavAltMarkup">
+                  <ul class="navbar-nav list-unstyled">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#our-service">Our Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#why-us">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div class="bg">
+            <div class="container-fluid"></div>
+          </div>
+        </div>
+      </header>
       <Filter disabled={true} isButton={false} />
       <div className="container" style={{ marginTop: "70px" }}>
         <div className="row">
