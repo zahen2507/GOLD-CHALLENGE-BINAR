@@ -7,7 +7,7 @@ const Welcome = (props) => {
       <section className="jumbotron ps-5">
         <div className="container-fluid pt-5">
           <div className="row">
-            <div className="col-6 py-4 ps-5">
+            <div className="col-lg-6 py-4 ps-5">
               <h1 className="pt-5 pb-3">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
               <p className="fw-bold">
                 Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan

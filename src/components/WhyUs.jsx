@@ -2,7 +2,7 @@ import * as React from "react";
 
 const WhyUs = () => {
   return (
-    <section className="container" id="whyUs">
+    <section className="container" id="WhyUs">
       <h2 className="py-1">Why Us</h2>
       <h4>Mengapa harus pilih Binar Car Rental?</h4>
 

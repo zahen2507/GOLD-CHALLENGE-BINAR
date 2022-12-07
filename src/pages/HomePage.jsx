@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navigation from "../components/Navigation";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 import Welcome from "../components/Welcome";
@@ -10,7 +10,7 @@ import Banner from "../components/Banner";
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      <Navigation />
       <Welcome isButtonShow={true} />
       <BestCar />
       <WhyUs />

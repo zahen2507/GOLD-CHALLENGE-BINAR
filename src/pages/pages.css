@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
-.navbar {
+.navbar1 {
   background-color: #f1f3ff;
 }
 
@@ -117,5 +117,30 @@
 .bg .container-fluid {
   height: 236px; 
   background: #F1F3FF; 
+}
+
+
+/* Testimonial */
+.owl-carousel .item .testimonial-card {
+  background-color: #f1f3ff;
+  border: none;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 2rem;
+}
+
+button.owl-next {
+  background-color: black;
+}
+
+#tes-photo {
+  display: flex;
+}
+
+#ph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
