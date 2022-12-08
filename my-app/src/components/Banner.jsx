@@ -10,10 +10,13 @@ const Banner = () => {
   return (
     <Container fluid class="pt-5">
       <Row className="Banner m-5 rounded-3 text-center">
-        <Col className="p-5">
+        <Col lg={12} className="p-5">
           <h1 className="fw-bold">Sewa Mobil di (Lokasimu) Sekarang</h1>
-          <p className="lorem ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="pt-2 pb-4 mx-lg-5 mx-sm-0">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+            vel repellendus a beatae ducimus obcaecati quo ut magnam, modi earum
+            adipisci autem repellat culpa! Quae ratione libero molestias. Quis,
+            sed.
           </p>
           <Button
             as={Link}
