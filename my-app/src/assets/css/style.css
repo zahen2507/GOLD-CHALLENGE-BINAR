@@ -1,0 +1,94 @@
+/* Navigation */
+.nav-color {
+    background-color: #f1f3ff;
+}
+  
+  .color-black {
+    color: black;
+}
+
+
+/* Welcome */
+#welcome {
+    background-color: #f1f3ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+p {
+    font-weight: bold;
+}
+
+/* Welcome2 */
+.s-span {
+    padding: 266px;
+    background-color: #f1f3ff;
+  }
+
+
+/* Our Service */
+#ourServices,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.color-black {
+  color: black !important;
+}
+
+
+/* Why Us */
+#whyUs {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  
+
+/* Testimonial */
+.owl-carousel .item .testimonial-card {
+    background-color: #f1f3ff;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 2rem;
+  }
+  
+  button.owl-next {
+    background-color: black;
+  }
+  
+  #tes-photo {
+    display: flex;
+  }
+  
+  #ph {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center;
+  }
+
+  
+/* Banner */
+.Banner {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d28a6;
+    color: white;
+    width: 1168px;
+    height: 326px;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+.Banner .lorem {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 342px;
+    padding-right: 358px;
+}
+.color-white {
+    color: white;
+}
+  
